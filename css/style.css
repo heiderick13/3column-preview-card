@@ -17,6 +17,11 @@
     text-decoration: none;
 }
 
+.space {
+    height: 70px;
+    display: none;
+}
+
 body {
     font-size: 15px;
     font-family: 'Lexend Deca', sans-serif;
@@ -103,6 +108,11 @@ p {
 }
 
 @media screen and (min-width: 450px) {
+
+    .space {
+        display: block;
+    }
+
     p {
         margin-bottom: 80px;
     }
